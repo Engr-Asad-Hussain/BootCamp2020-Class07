@@ -45,7 +45,10 @@
 - Means when 1 function completes its job, it calls another function, and this function calls another function.
 - We use callback functions when we have to do API request.
 - **View**: [CallBack.js](https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/Callback.js)
-- **Drawback of Callback**: It makes a callback hell: means we are unable to understand which function calls another function and so on... So, it makes code hell. It creates unstability in management.
+- **Drawback of Callback**: 
+    1. It makes a callback hell: 
+    2. Functions are getting nested and we are unable to understand which function calls another function and so on... So, it makes code hell. 
+    3. It creates unstability in management.
 - **View**: [CallBackHell.js](https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/CallBackHell.js)
 
 
@@ -59,7 +62,22 @@
 
 ### then tree
 - **view:** [AfterPromises.js](https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/AfterPromises.js)
+- **Drawback of then tree**
+    - Sometimes it creates difficulty in readability in code.
+    - Although it uses extensively in professional coding but we also use async/await.
 
+### async/await function ()
+```
+async function _asyncJS() {
+    let data = await apiFetch();
+    console.log(data, "!! successfully !! ");
+}
+```
+- await keyword will wait for the data to come from apiFetch() then it save in data then console.log(data, "") will print.
+- Means console.log() is dependent on data value.
+- This async function () is analogus to " then tree "
+- We use async function instead to then because it creates "then hell"
+- **Uses:** Sometimes when we have to do user authentication then async/await is best for managing and for readibility.
 
 ### setTimeout()
 ```
@@ -78,14 +96,3 @@ setTimeout(print, 2000);
     2. setTimeout( dummyAPI, 200) Means dummyAPI() will run after 200 milliseconds
 
 
-### async function ()
-```
-async function _asyncJS() {
-    let data = await apiFetch();
-    console.log(data, "!! successfully !! ");
-}
-```
-- await keyword will wait for the data to come from apiFetch() then it save in data then console.log(data, "") will print.
-- Means console.log() is dependent on data value.
-- This async function () is analogus to " then tree "
-- We use async function instead to then because it creates "then hell"

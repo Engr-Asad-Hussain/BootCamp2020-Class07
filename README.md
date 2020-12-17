@@ -76,3 +76,16 @@ setTimeout(print, 2000);
 - Example;
     1. setTimeout("Hello World", 2000) Means Hello World will print after 2 seconds
     2. setTimeout( dummyAPI, 200) Means dummyAPI() will run after 200 milliseconds
+
+
+### async function ()
+```
+async function _asyncJS() {
+    let data = await apiFetch();
+    console.log(data, "!! successfully !! ");
+}
+```
+- await keyword will wait for the data to come from apiFetch() then it save in data then console.log(data, "") will print.
+- Means console.log() is dependent on data value.
+- This async function () is analogus to " then tree "
+- We use async function instead to then because it creates "then hell"

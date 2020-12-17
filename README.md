@@ -44,9 +44,9 @@
 - functions with in a functions.
 - Means when 1 function completes its job, it calls another function, and this function calls another function.
 - We use callback functions when we have to do API request.
-- **View**: [https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/Callback.js](CallBack.js)
+- **View**: [CallBack.js](https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/Callback.js)
 - **Drawback of Callback**: It makes a callback hell: means we are unable to understand which function calls another function and so on... So, it makes code hell. It creates unstability in management.
-- **View**: [https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/CallBackHell.js](CallBackHell.js)
+- **View**: [CallBackHell.js](https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/CallBackHell.js)
 
 
 ### Promises
@@ -54,11 +54,11 @@
 - Promise is like a promise, either it completes (wada pura hoga) or it will not complete (wada pura nahi hua).
 - So, in javascript if the promises completes then we called it as resolve() and if it not completes we called it as reject()
 - We usually use Promises to fetch data from API, so javascript tells that if I would be able to fetch data successfully then I'll run resolve() function else I'll run reject()
-- **View:** (https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/BeforePromises.js)[BeforePromises.js] and [https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/Promises.js](Promises.js) and [https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/AfterPromises.js](AfterPromises.js)
+- **View:** [BeforePromises.js](https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/BeforePromises.js) and [Promises.js](https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/Promises.js) and [AfterPromises.js](https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/AfterPromises.js)
 
 
 ### then tree
-- **view:** [https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/AfterPromises.js](AfterPromises.js)
+- **view:** [AfterPromises.js](https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/AfterPromises.js)
 
 
 ### setTimeout()
@@ -77,7 +77,4 @@ setTimeout(print, 2000);
     1. setTimeout("Hello World", 2000) Means Hello World will print after 2 seconds
     2. setTimeout( dummyAPI, 200) Means dummyAPI() will run after 200 milliseconds
 
-[https://www.google.com/](Google)
-(https://www.google.com/)[Google]
-(Google)[https://www.google.com/]
 [Google](https://www.google.com/)

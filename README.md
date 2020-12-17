@@ -77,3 +77,7 @@ setTimeout(print, 2000);
     1. setTimeout("Hello World", 2000) Means Hello World will print after 2 seconds
     2. setTimeout( dummyAPI, 200) Means dummyAPI() will run after 200 milliseconds
 
+[https://www.google.com/](Google)
+(https://www.google.com/)[Google]
+(Google)[https://www.google.com/]
+[Google](https://www.google.com/)

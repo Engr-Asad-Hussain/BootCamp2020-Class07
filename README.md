@@ -58,7 +58,10 @@
 
 
 ### then tree
-- **View AfterPromises.js**
+- **[www.google.com](google)**
+- [www.google.com](google)
+- **(www.google.com)[google]**
+- (www.google.com)[google]
 
 
 ### setTimeout()

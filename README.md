@@ -56,6 +56,11 @@
 - We usually use Promises to fetch data from API, so javascript tells that if I would be able to fetch data successfully then I'll run resolve() function else I'll run reject()
 - **View in BeforePromises.js and Promises.js and AfterPromises.js**
 
+
+### then tree
+- **View AfterPromises.js**
+
+
 ### setTimeout()
 ```
 function print() {
@@ -71,6 +76,4 @@ setTimeout(print, 2000);
 - Example;
     1. setTimeout("Hello World", 2000) Means Hello World will print after 2 seconds
     2. setTimeout( dummyAPI, 200) Means dummyAPI() will run after 200 milliseconds
-
-
 

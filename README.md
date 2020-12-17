@@ -54,7 +54,7 @@
 - Promise is like a promise, either it completes (wada pura hoga) or it will not complete (wada pura nahi hua).
 - So, in javascript if the promises completes then we called it as resolve() and if it not completes we called it as reject()
 - We usually use Promises to fetch data from API, so javascript tells that if I would be able to fetch data successfully then I'll run resolve() function else I'll run reject()
-- **View:** [https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/BeforePromises.js](BeforePromises.js) and [https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/Promises.js](Promises.js) and [https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/AfterPromises.js](AfterPromises.js)
+- **View:** (https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/BeforePromises.js)[BeforePromises.js] and [https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/Promises.js](Promises.js) and [https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/AfterPromises.js](AfterPromises.js)
 
 
 ### then tree

@@ -78,6 +78,7 @@ async function _asyncJS() {
 - This async function () is analogus to " then tree "
 - We use async function instead to then because it creates "then hell"
 - **Uses:** Sometimes when we have to do user authentication then async/await is best for managing and for readibility.
+- **View**: [async.js](https://github.com/Engr-Asad-Hussain/BootCamp2020-Class07/blob/master/async.js)
 
 ### setTimeout()
 ```
